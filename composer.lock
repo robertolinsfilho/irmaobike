@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b88eecff28004a3155778668416301e",
+    "content-hash": "06a1043fa5e48ceb5724ac73956c3ef8",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1087,6 +1087,230 @@
             },
             "abandoned": true,
             "time": "2022-12-19T11:08:26+00:00"
+        },
+        {
+            "name": "goomento/module-core",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Goomento/Core.git",
+                "reference": "25d73acc510c912f17a73714a112b806292195e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Goomento/Core/zipball/25d73acc510c912f17a73714a112b806292195e8",
+                "reference": "25d73acc510c912f17a73714a112b806292195e8",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "~102.0.0||~103.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Goomento\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Goomento",
+                    "homepage": "https://goomento.com",
+                    "role": "Developer Team"
+                }
+            ],
+            "description": "Magento 2 Goomento Core Module For Goomento Page Builder Extension",
+            "homepage": "https://goomento.com",
+            "support": {
+                "issues": "https://github.com/Goomento/Core/issues",
+                "source": "https://github.com/Goomento/Core/tree/v1.0.12"
+            },
+            "time": "2023-05-28T08:22:01+00:00"
+        },
+        {
+            "name": "goomento/module-page-builder",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Goomento/PageBuilder.git",
+                "reference": "8f52c2000418db90b7cc341663ea290b18a68f6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Goomento/PageBuilder/zipball/8f52c2000418db90b7cc341663ea290b18a68f6d",
+                "reference": "8f52c2000418db90b7cc341663ea290b18a68f6d",
+                "shasum": ""
+            },
+            "require": {
+                "goomento/module-core": ">=1.0.12",
+                "goomento/module-page-builder-api": ">=1.0.0",
+                "goomento/module-page-builder-sample-data": ">=1.0.0",
+                "snowdog/module-menu": "^2.20"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Goomento\\PageBuilder\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Goomento",
+                    "email": "goomento.com@gmail.com",
+                    "homepage": "https://goomento.com",
+                    "role": "Developer Team"
+                }
+            ],
+            "description": "Goomento - The Free Magento Page Builder Extension, allows you to create unique Magento websites, landing pages using advanced animations, custom CSS, responsive designs, and more, without a line of code.",
+            "homepage": "https://goomento.com",
+            "keywords": [
+                "block",
+                "free magento 2 extension",
+                "free magento 2 page builder",
+                "goomento",
+                "goomento marketing tool",
+                "goomento page builder",
+                "landing page",
+                "magento 2",
+                "magento 2 landing page",
+                "magento 2 page builder",
+                "magento cms",
+                "magento content builder",
+                "magento form builder",
+                "magento page builder",
+                "marketing",
+                "page",
+                "page builder",
+                "page builder settings",
+                "pagebuilder",
+                "section",
+                "template"
+            ],
+            "support": {
+                "issues": "https://github.com/Goomento/PageBuilder/issues",
+                "source": "https://github.com/Goomento/PageBuilder/tree/v0.5.1"
+            },
+            "time": "2023-07-08T07:54:58+00:00"
+        },
+        {
+            "name": "goomento/module-page-builder-api",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Goomento/PageBuilderApi.git",
+                "reference": "a95c08d499ea2c88aa778ca31f9065aec384a0df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Goomento/PageBuilderApi/zipball/a95c08d499ea2c88aa778ca31f9065aec384a0df",
+                "reference": "a95c08d499ea2c88aa778ca31f9065aec384a0df",
+                "shasum": ""
+            },
+            "require": {
+                "goomento/module-page-builder": ">=0.4.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Goomento\\PageBuilderApi\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Goomento",
+                    "email": "goomento.com@gmail.com",
+                    "homepage": "https://goomento.com",
+                    "role": "Developer Team"
+                }
+            ],
+            "description": "Rest API and GraphQL for Goomento - Magento Page Builder Extension.",
+            "homepage": "https://goomento.com",
+            "keywords": [
+                "goomento page builder",
+                "goomento page builder graphql",
+                "goomento page builder rest api",
+                "goomento page builder rest full",
+                "magento 2",
+                "magento 2 page builder",
+                "magento page builder"
+            ],
+            "support": {
+                "issues": "https://github.com/Goomento/PageBuilderApi/issues",
+                "source": "https://github.com/Goomento/PageBuilderApi/tree/v1.0.2"
+            },
+            "time": "2023-05-21T14:17:02+00:00"
+        },
+        {
+            "name": "goomento/module-page-builder-sample-data",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Goomento/PageBuilderSampleData.git",
+                "reference": "6815775874c06353c8a26db2c1cb64d7bcc7f747"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Goomento/PageBuilderSampleData/zipball/6815775874c06353c8a26db2c1cb64d7bcc7f747",
+                "reference": "6815775874c06353c8a26db2c1cb64d7bcc7f747",
+                "shasum": ""
+            },
+            "require": {
+                "goomento/module-page-builder": ">=0.3.9"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Goomento\\PageBuilderSampleData\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Goomento",
+                    "homepage": "https://goomento.com",
+                    "role": "Developer Team"
+                }
+            ],
+            "description": "Sample Data and Widgets Module, How To Create Widget For Goomento - Magento Page Builder Extension",
+            "homepage": "https://goomento.com",
+            "keywords": [
+                "goomento page builder",
+                "goomento page builder sample widget",
+                "magento 2",
+                "magento 2 page builder",
+                "magento page builder"
+            ],
+            "support": {
+                "issues": "https://github.com/Goomento/PageBuilderSampleData/issues",
+                "source": "https://github.com/Goomento/PageBuilderSampleData/tree/v1.0.0"
+            },
+            "time": "2022-11-27T09:23:48+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5488,6 +5712,59 @@
             "time": "2022-08-31T10:31:18+00:00"
         },
         {
+            "name": "snowdog/module-menu",
+            "version": "2.23.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SnowdogApps/magento2-menu.git",
+                "reference": "312fe917b44734c10049393ab9b62e2af700131a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SnowdogApps/magento2-menu/zipball/312fe917b44734c10049393ab9b62e2af700131a",
+                "reference": "312fe917b44734c10049393ab9b62e2af700131a",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "100.1.*|101.0.*|102.0.*|103.0.*",
+                "magento/module-backend": "100.1.*|100.2.*|101.0.*|102.0.*",
+                "magento/module-catalog": "101.0.*|102.0.*|103.0.*|104.0.*",
+                "magento/module-cms": "101.0.*|102.0.*|103.0.*|104.0.*",
+                "magento/module-graph-ql": "100.3.*|100.4.*",
+                "magento/module-import-export": "100.3.*|101.0.*",
+                "magento/module-media-storage": "100.3.*|100.4.*",
+                "symfony/yaml": ">=3.2"
+            },
+            "require-dev": {
+                "magento/magento-coding-standard": "^5.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Snowdog\\Menu\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kamil Balwierz",
+                    "email": "kamil@snow.dog"
+                }
+            ],
+            "description": "Provides powerful menu editor to replace category based menus in Magento 2",
+            "support": {
+                "issues": "https://github.com/SnowdogApps/magento2-menu/issues",
+                "source": "https://github.com/SnowdogApps/magento2-menu/tree/2.23.1"
+            },
+            "time": "2023-07-28T09:00:14+00:00"
+        },
+        {
             "name": "spomky-labs/aes-key-wrap",
             "version": "v6.0.0",
             "source": {
@@ -7584,6 +7861,81 @@
                 }
             ],
             "time": "2023-08-24T13:38:36+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v5.3.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "c441e9d2e340642ac8b951b753dea962d55b669d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c441e9d2e340642ac8b951b753dea962d55b669d",
+                "reference": "c441e9d2e340642ac8b951b753dea962d55b669d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<4.4"
+            },
+            "require-dev": {
+                "symfony/console": "^4.4|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "bin": [
+                "Resources/bin/yaml-lint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Loads and dumps YAML files",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/v5.3.14"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-01-26T16:05:39+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -13323,81 +13675,6 @@
                 }
             ],
             "time": "2023-02-14T08:03:56+00:00"
-        },
-        {
-            "name": "symfony/yaml",
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "c441e9d2e340642ac8b951b753dea962d55b669d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/c441e9d2e340642ac8b951b753dea962d55b669d",
-                "reference": "c441e9d2e340642ac8b951b753dea962d55b669d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5",
-                "symfony/deprecation-contracts": "^2.1",
-                "symfony/polyfill-ctype": "~1.8"
-            },
-            "conflict": {
-                "symfony/console": "<4.4"
-            },
-            "require-dev": {
-                "symfony/console": "^4.4|^5.0"
-            },
-            "suggest": {
-                "symfony/console": "For validating YAML files using the lint command"
-            },
-            "bin": [
-                "Resources/bin/yaml-lint"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Yaml\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Loads and dumps YAML files",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.3.14"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-01-26T16:05:39+00:00"
         },
         {
             "name": "theseer/tokenizer",

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b78735-3797-431e-81cc-767b9dd2a31a" name="Changes" comment="" />
+    <list default="true" id="f9b78735-3797-431e-81cc-767b9dd2a31a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -291,7 +295,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -491,6 +495,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/aws/aws-crt-php" />
+      <path value="$PROJECT_DIR$/vendor/magento/framework" />
     </include_path>
   </component>
   <component name="ProjectId" id="2Vgg9Mp0CZCUofYoG4HEkaUiRis" />
@@ -502,7 +507,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/robertolinsfilho/Documents/docker-magento2/data/www/bike/htdocs",
+    "last_opened_file_path": "/Users/robertolinsfilho/Documents/docker-magento2/data/www/bike/htdocs/vendor/magento",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -513,9 +518,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor/magento" />
+      <recent name="$PROJECT_DIR$/app/code" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend" />
+      <recent name="$PROJECT_DIR$/app/code" />
       <recent name="$PROJECT_DIR$/pub/media" />
       <recent name="$PROJECT_DIR$/pub/media/downloadable" />
     </key>
@@ -536,7 +545,9 @@
       <updated>1695262984902</updated>
       <workItem from="1695262986157" duration="2790000" />
       <workItem from="1695309467821" duration="598000" />
-      <workItem from="1695320070029" duration="4140000" />
+      <workItem from="1695320070029" duration="4872000" />
+      <workItem from="1695840584710" duration="558000" />
+      <workItem from="1696249424654" duration="5463000" />
     </task>
     <servers />
   </component>
